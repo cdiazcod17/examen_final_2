@@ -1,0 +1,35 @@
+/* Responsive Index */
+
+@media (max-width:768px){
+    .main1{
+        width: 100%;
+        height: 1000px;
+        background-image: url(../img/image\ 1.png);
+    }
+    .content_index{
+        display: flex;
+        align-items: start;
+        margin-top: 100px;
+        
+    }
+    .content_index h1{
+        font-size: 45px;        
+    }
+}
+
+/* Responsive Cursos */
+
+@media (max-width:768px){
+    
+    .title_description{ 
+        width: 100%;    
+    }
+
+    .main_courses{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px;
+    }
+
+}
